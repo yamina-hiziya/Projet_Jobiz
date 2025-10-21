@@ -5,7 +5,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 // on définit une constatnte pour avoir le chemin racine de l'app
 define('APP_ROOT', dirname(__DIR__));
 
-echo APP_ROOT;
 
 use App\Controller\PageController;
 
