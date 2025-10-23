@@ -1,6 +1,6 @@
 <?php
 return [
-    "/about/" => [
+    "about" => [
         "controller" => "App\Controller\PageController",
         "action" => "about"
     ],
