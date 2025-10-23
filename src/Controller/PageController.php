@@ -6,17 +6,17 @@ class PageController extends Controller
 {
     public function home(): void
     {
-        $greeting = 'Hello';
-        $name = 'John';
+        $greeting = "Hello";
+        $name = "John";
 
-        $this->render('page/home', [
-            'greeting' => $greeting,
-            'name' => $name,
+        $this->render("page/home", [
+            "greeting" => $greeting,
+            "name" => $name,
         ]);
     }
 
     public function about(): void
     {
-        $this->render('page/about');
+        $this->render("page/about");
     }
 }
